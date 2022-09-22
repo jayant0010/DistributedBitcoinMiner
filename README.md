@@ -13,7 +13,7 @@ Bitcoins (seehttp://en.wikipedia.org/wiki/Bitcoin) are the most popular crypto-c
 
 This erlang implementation uses a master - worker architecture to mine bitcoins efficiently. The primary function of the master is to control the worker nodes, accept connection requests from worker nodes, pass the user input to worker nodes and accept mined bitcoins from worker nodes. Along with said primary functions, the master node also mines bitcoins and is capable of doing so in a standalone configuration. At the worker nodes, the number of mining threads is one less than total number of logic cores present on that physical node. This is done to make sure that each node can mine as many bitcoins as possible. The mined bitcoins are sent to the master node via message passing.
 
-## Sample Output for Standalone Master
+## Sample Output
 
 saijayanthchidirala@darth ~ % cd Desktop 
 saijayanthchidirala@darth Desktop % cd miner
