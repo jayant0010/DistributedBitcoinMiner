@@ -7,7 +7,7 @@ Bitcoins (seehttp://en.wikipedia.org/wiki/Bitcoin) are the most popular crypto-c
 ## Authors
 
 * **Saijayanth Chidirala** - *UF ID: 2649 6282* - [Github](https://github.com/jayant0010)
-* **Omkar Parab** - *UF ID: 0000 0000* - [Github](https://github.com/)
+* **Omkar Parab** - *UF ID: 1134 4522* - [Github](https://github.com/omcar04)
 
 ## Size of the work unit 
 
@@ -112,4 +112,4 @@ A worker node, on initiation, looks up the register for the handshake server and
 
 * [Erlang](https://www.erlang.org) - Erlang is a dynamic, functional language designed for building scalable and efficient distributed applications.
 * [Visual Studio Code](https://code.visualstudio.com/) - Code Editor
-* [Github](https://github.com/jayant_0010) - Dependency Management
+* [Github](https://github.com/jayant_0010/DistributedBitcoinMiner) - Dependency Management
