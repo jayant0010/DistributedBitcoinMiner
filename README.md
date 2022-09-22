@@ -15,8 +15,7 @@ This erlang implementation uses a master - worker architecture to mine bitcoins 
 
 ## Sample Output
 
-saijayanthchidirala@darth ~ % cd Desktop 
-saijayanthchidirala@darth Desktop % cd miner
+saijayanthchidirala@darth ~ % cd Desktop/miner 
 saijayanthchidirala@darth miner % erl -name master@192.168.0.138 -setcookie dospsj
 
 Erlang/OTP 25 [erts-13.0.4] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:1] [jit] [dtrace]
@@ -26,38 +25,40 @@ Eshell V13.0.4  (abort with ^G)
 {ok,miner}
 (master@192.168.0.138)2> miner:start().
 Enter the number of leading zeroes : 4.
-Bigboss PID : <0.93.0>Counter PID : <0.94.0>Collector PID : <0.95.0>Supervisor PID : <0.96.0>
-saijayanchidira;CfMd7GKBP2AeAbQ2lLT5NbITI4lM56gt        0000af0e40896118b85467e5bcdaffe2246156d4836df578c0361683a1b08218
-saijayanchidira;AIES5jcjiffG5ad8cRE07bataA10DDb3        0000db6b99954766c86076660266d3b8ba33ff8b6df43f302e0d4efe948b41a1
-saijayanchidira;4KfmB9AmNdkSic56GbJeSqGeONR524ft        0000ab1e93b6d3ea47f223a2ca0fb3bc206fc62632ba8848fcb4c9decfb28c63
-saijayanchidira;qEBmpPRmrb3n4GEB7aK9BHDgjH64QRj1        00003eefab39fb5809bcdd119085cce28039e4294d92fee13b466deb2398fa97
-saijayanchidira;Gom7D0mTICHcIF4IT1L9IkjjGP92IQh4        0000d9367da991fd6125671ab712eec640ff9038b6dac79e92e3d2590ee2f596
-saijayanchidira;MmBdDfahgdPSQmBrHPar97EmEASNR8H8        000024414956ac2c2867f47656e239acba66b5bceb6d230b4a6f4a691620bf81
-saijayanchidira;eIKRR5TfGqorcI0f0TQp2NR49cnr39Ee        0000d8dac009c8292ca80053a16b0343a3ea0a03f5670b328d9752ec820f90ad
-saijayanchidira;SAsfoNlCRI3eN9M27hLNq0e7NN9heFmH        000066fe093624246073171175066700a9488477256949273815f1ccbb872d25
-saijayanchidira;DqbS9MsGajfmpLiHMBg8i8SfSSJKtbgs        0000b2a5d3e900e20cfe594c49f959dae1f14041d86ed036f1ab26347034fc73
-saijayanchidira;PGDRAKQkFqREDl7Rm1J0K5EAIOjPi0QI        0000b31fd4376f47279751d08beabc1f63e72e0e379110d24f6e12a723b934c9
-saijayanchidira;PpJNTEte05NO84OgijgF5RI1dOboNRjl        0000df63ff0d08e595c9e6df020856baa40081a8ade0dc973770e18df822da23
-saijayanchidira;KId766R9GTOms0Is7amRTfRHPhibMDgI        00002e3d7b41f3851a83f2f371e691c4cddd73ecd04ecd83499558f504a44915
-saijayanchidira;MiBgkcO1K8DM20o7mkRrrg0Hk0hFLOqk        0000d3a49afb81a496ead14cf9225015173ca14a2d177283c34eb66de8aa84bc
-saijayanchidira;i4AMC8BEceItSNKoOKfmrP452JTErBlT        00000330c935bc9f0db37f4f7893365d6b3f40e8e59fe74a2b4cca635a665981
-saijayanchidira;8ATHrRG8lr1eAoOiBIItFh4bCKAn03Jt        00009ce7a4070bd7b5252240ae9acf68a143cee9c840effa1cf05733365a9743
-saijayanchidira;gOMC0dTODps005NIBf7ceeoi1NfqPoMp        00004551a78ad13c1cb91d631382a188ad653da56799058a0bb38da59e24bdd4
-saijayanchidira;i4EbJGRaI9E6DrD996g5htKQdcNtb2fp        0000d9b5b2a9ec86f2e57df79aeca90426392a783fa71b7855454fb2a792547d
-saijayanchidira;R1JblTRFFJr4sPBkcthTq9pIdmNj7T8S        00007ed1f53e135b9935e11ab9795d28ed6d6ba874d7a9c2d7065c0811fa58f7
-saijayanchidira;cDE2jCa1molD6BBoKpaNK2titF8BME5k        00005bd1dd97b0fc37e122f60f52e3324d01327c62899985f46992bfff924481
-saijayanchidira;dTQiSMQIpr3mirJfjkegjGOas4BRNIHg        0000ebb06801799f712a0c4d4014738dccb58104ac1a24cb8373eb2e36e0b94d
-saijayanchidira;lisPaDT5i8G1SpNL2D62HnScIe87qDf6        000085c71565e593d689a80e07fb4d88558d49354bed89c0b092e6c30b82c699
-saijayanchidira;mOH94jamc7ncc7M8D38fp2b6Qbt39a5e        000033410838b16698650803bf468401aaaada3c87df2b7dd7ad007e19d44ff6
+Bigboss PID : <0.96.0>Counter PID : <0.97.0>Collector PID : <0.98.0>Supervisor PID : <0.99.0>
+Logical processors : 8 
+MINER PID at this master node : <0.100.0> 
+MINER PID at this master node : <0.101.0> 
+MINER PID at this master node : <0.102.0> 
+MINER PID at this master node : <0.103.0> 
+MINER PID at this master node : <0.104.0> 
+MINER PID at this master node : <0.105.0> 
+MINER PID at this master node : <0.106.0> 
+MINER PID at this master node : <0.107.0> 
+ok
+saijayanchidira;fkNlNjTdp2ST7MHQepfL1NT0HogfEjGG        0000ed7aa6571d6ae68ccfa8bd8e4ea0b8576fc79b750947092e31979920919e                         
+saijayanchidira;lASCltr2PB0kn36sBOCNhjqrdjBofOAn        0000987cb9fedd6b7f7f3f8dcc7fa0faf01a20f7ef10154c656ed030036420ab                         
+saijayanchidira;25G6DkF8ICCR8tHSO0Jc6erTcFqE1AAS        00005253737559215914f0a1c7a5a4454c2d26909eaba71d943ea335738a063f                         
+saijayanchidira;H4ECrojbcKHomB82ECoSEJL8QB5PHdNS        000099251b5536fde47cd613a5df8ceae3a93d6675686584091f428099bb020e                         
+saijayanchidira;JC1DgMajTF9tnt0nAEAJgSHQRNnO7D34        0000ed4f660f95ea1d038bb5d52a1d1fa9ceed7ad3ef323b8d3e23caf265a6a7                         
+saijayanchidira;1jGSed1cBGKCcRkfoAcHLgJch84FDMcP        0000d78781733a173b85106cda77f095c9adfde2707c00a5128ea02f9eff131c                         
+saijayanchidira;dO8T6t2HOqEJsB11PHsfhFrgmmJR2oCF        00003b7011264cd7d51cc468103981b3d1cca5026e9f05556928fe28312a9c97                         
+saijayanchidira;H2mtmStS5aL1l3SSaENgEIkEc52cbrDI        0000fbb5f4fd85558d5fa8b1ff5e4f174cbc96c9212a79fb1781e0d6a11ba5a4                         
+saijayanchidira;3p9HQL0BnJtFaQENrIBJq8osBEDeiSsI        000023e99776f0c9ba1bff1b065bb5b8657dc4c736cd998eaed9ce8b88f4806b                         
+saijayanchidira;jCAMcMT4HHNnj3AqHdddirJ8nas23ed7        00001c32f4576f46c64e90c6812470bedd7b628afd98aa0fc5e9d26ae82875f2                         
+saijayanchidira;StorR7p2qtQM5Ce78Id5hSTpRdnJH02n        000017b9e3bb37ae5fb427b582c01fa77c363e5873c4d2170c0655e80b5aabdf                         
+SERVER <0.96.0>: Client request received from <9334.86.0>
+saijayanchidira;Dq3pLHbkjH1t2MOHd96F4TrP5LqdHBFs        0000c58394980e5e8b807433e7d2fd450844a2473b68a0c94cea14fe0381109f                         
+saijayanchidira;Q5nABpjaReNn9JDpktH0F0L2rrqbqH81        00002c17959dc0fa1402688c800769de0eda27f8483831f70eca7c7f471c4e72                         
 
 
 ## Running Time
 
-Runtime : {177520,177520} [CPU_Time]
+Runtime : {239193,117856} [CPU_Time]
  
-Wall Clock : {39282,39282} [Real_Time]
+Wall Clock : {101837,30001} [Real_Time]
 
-CPU_Time/Real_Time=4.51
+CPU_Time/Real_Time=2.34
 
 ## Coin with most zeroes (7) :
 
@@ -66,7 +67,7 @@ saijayanchidira;fJSKjsrqnADPDa0gln4KGDrq2Smgc7Qs        00000004be2b4ba40dd2af7a
 
 ## Largest number of working machines on which the code was run
 
-The code was simultaneously run on 7 machines with one functioning as server and the other 6 as workers.
+The code was simultaneously run on 6 machines with one functioning as server and the other 5 as workers.
 
 # Getting Started/Prerequisites
 
