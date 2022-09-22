@@ -51,10 +51,6 @@ saijayanchidira;lisPaDT5i8G1SpNL2D62HnScIe87qDf6        000085c71565e593d689a80e
 saijayanchidira;mOH94jamc7ncc7M8D38fp2b6Qbt39a5e        000033410838b16698650803bf468401aaaada3c87df2b7dd7ad007e19d44ff6
 
 
-## Sample Output for Master with Workers
-
-
-
 ## Running Time
 
 Runtime : {177520,177520} [CPU_Time]
